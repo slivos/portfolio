@@ -1,1 +1,105 @@
+<!DOCTYPE html>
 
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Portfolio - Domov</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+<header>
+    <nav>
+            <div class="ham-container">
+            <button class="hamburger" type="button"><i class="fas fa-bars"></i></button>
+            </div>
+            <ul class="navpanel">
+                <li class="flexbox-item"><a data-scroll="linky" class="navpanel-link animate__animated" href="#Domov">Domov</a></li>
+                <li class="flexbox-item"><a data-scroll="linky" class="navpanel-link animate__animated" href="#O-mne">O mne</a></li>
+                <li class="flexbox-item"><a data-scroll="linky" class="navpanel-link animate__animated" href="#Kontakt">Kontakt</a></li>
+            </ul>
+            
+            <div class="logo">PORTFOLIO</div>
+    </nav>
+    
+</header>
+
+
+<section id="Domov">
+    <div class="img1">
+        <article class="uvod">
+            
+            <h1 class="h1-vitajte">VITAJTE</h1>
+
+            <p class="uvodne-info">Volám sa Samuel a mojím zameraním je Front End Development. Rád sa ponorím do svojej fantázie a jej výsledok prenesiem do kódu. Baví ma tvoriť zaujímavé a moderné web stránky.
+            </p>
+            
+            <!--<a data-scroll="ikony" class="ikony-uvod animate__animated" target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?q=seal+meme&tbm=isch&source=iu&ictx=1&fir=Ht4nGpLvaaLDiM%252CJenkWsMvS0lI1M%252C_&vet=1&usg=AI4_-kTSFBiTlUf9doOnwUc1NkOgR2ITlQ&sa=X&ved=2ahUKEwjq2bS03-LuAhWE5OAKHfTUB5sQ9QF6BAgDEAE&biw=1920&bih=969#imgrc=Ht4nGpLvaaLDiM"><i class="fab fa-linkedin" id="ikona-li"></i></a>-->
+            <a data-scroll="ikony" class="ikony-uvod animate__animated" target="_blank" rel="noopener noreferrer" href="https://github.com/blue-water12/portfolio"><i class="fab fa-github" id="ikona-gh"></i></a>    
+        
+        </article>    
+    </div> 
+</section>
+
+<section id="O-mne">
+  
+    <div class="nieco-o-mne">
+        <h1 class="nadpis-o-mne">Niečo o mne</h1>
+
+        <article>
+            <p id="odsek-1">Asi by bolo dobré povedať o sebe ešte zopár viet...  :D .<br><br><span style="color: #45A29E">Som začínajúci Front End Developer, ktorý má v sebe veľkú túžbu tvoriť.</span><br>Vytvárať diela, o ktorých vie, že druhým spravia radosť.<br>Snažím sa deň po dni na sebe pracovať a prísť na každý problém.<br><br><br class="only-mobile"><br class="only-tablet">Kto ma dobre pozná, vie, že som veľký pedant, neodídem od rozpracovaného diela až kým ho nedokončím.<br>Keď píšem kód, či už v HTML, CSS alebo v jQuery, tak sa ho snažím písať čo najviac prehľadne.<br><br>Ak ma zrovna nenájdete kódiť, tak ma určite nájdete jazdiť v prírode na bicykli alebo cvičiť.<br>Asi toľko by som Vám povedal o smere, ktorým by som sa chcel v IT sfére vydať a v krátkosti i o mojich záľubách :&rpar; .
+            </p>
+        </article>
+
+        <aside data-scroll="scroll-el-1" class="citat slide-right"><q>Najväčšie dobrodružstvo, aké kedy môžete zažiť, je žiť život svojich snov.</q></aside>
+    </div>
+</section>
+
+<section id="Kontakt">
+    
+    <div class="class-kontakt">
+        <h1 class="h1-kontakt">Kontakt</h1>
+
+        <div class="avatar">
+        </div>
+
+        <article class="container" data-scroll="kontakt">
+            
+            <p><i class="fas fa-envelope ikony-kon ikona-em"></i><span style="color: #45A29E; font-weight: bold;">E-mail:<br class="only-mobile"></span> slivos.frontend@gmail.com</p>
+            <br>
+            <p><i class="fas fa-mobile-alt ikony-kon ikona-tel"></i><span style="color: #45A29E; font-weight: bold;">Tel. číslo:<br class="only-mobile"></span> +421 XXX XXX XXX</p>
+
+            <!--<a data-scroll="ikony" class="ikony-zaver animate__animated" target="_blank" rel="noopener noreferrer" href="https://sk-sk.facebook.com/"><i class="fab fa-linkedin" id="ikona-li"></i></a>-->
+            <a data-scroll="ikony" class="ikony-zaver animate__animated" target="_blank" rel="noopener noreferrer" href="https://github.com/blue-water12/portfolio"><i class="fab fa-github" id="ikona-gh"></i></a>
+        </article>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+    <small style="margin-bottom: 5px" class="copyright">&copy; Copyright 2021 Samuel S. Všetky práva vyhradené.</small>   
+</footer>
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
